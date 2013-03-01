@@ -12,6 +12,11 @@ group :development do
 	gem 'binding_of_caller'
 end
 
+group :development, :test do
+	gem 'rspec-rails'
+	gem 'factory_girl'
+end
+
 gem 'cache_digests'
 
 group :production do
@@ -32,7 +37,10 @@ end
 
 gem 'jquery-rails'
 gem 'underscore-rails'
+gem 'html2haml'
+gem 'haml-rails'
 
+gem 'pry-rails'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
