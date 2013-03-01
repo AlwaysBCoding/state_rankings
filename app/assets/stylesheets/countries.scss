@@ -1,0 +1,55 @@
+.countries-show {
+	font-family: "Helvetica";
+
+	.state {
+		width: 50%;
+		background-color: #BB813E;
+		height: 50px;
+		margin: 0 0 5px 0;
+		position: relative;
+
+		.sidebar {
+			background-color: #B6E6E7;
+			position: relative;
+			height: 100%;
+			width: 50px;
+			float: left;
+
+			.ranking {
+				position: absolute;
+				// color: red;
+				text-shadow: 2px 2px rgb(24,43,4);
+			}
+
+			.under-10 {
+				font-size: 50px;
+				left: 10px;
+				bottom: -3px;
+			}
+
+			.over-10 {
+				font-size: 40px;
+				left: 1px;
+				bottom: 2px;
+			}
+
+		}
+
+		.state-info {
+			height: 100%;
+			position: relative;
+			float: left;
+
+			.state-name {
+				position: relative;
+				display: inline;
+				font-size: 45px;
+				font-variant: small-caps;
+				left: 75px;
+				top: -1px;
+			}
+		}
+
+	}
+
+}
