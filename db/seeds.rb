@@ -10,3 +10,11 @@ states.each_with_index do |state, index|
 	usa.states.create! name: "#{state[1]['name']}", abbreviation: "#{state[1]['abbreviation']}", ranking: index+1
 	puts "Created State -  #{state[1]['name']}"
 end
+
+ny = State.find_by_name("New York")
+
+City.destroy_all
+puts "Destroying Cities..."
+ny.cities.create! name: "New York", population: 12000000, ranking: 1
+ny.cities.create! name: "Glen Cove", population: 50000, ranking: 2
+puts "Creating Cities for New York..."

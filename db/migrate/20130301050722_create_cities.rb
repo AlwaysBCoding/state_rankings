@@ -4,6 +4,7 @@ class CreateCities < ActiveRecord::Migration
       t.integer :state_id
       t.string :name
       t.integer :ranking
+      t.integer :population
 
       t.timestamps
     end

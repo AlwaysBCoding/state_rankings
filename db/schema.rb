@@ -17,6 +17,7 @@ ActiveRecord::Schema.define(:version => 20130301050722) do
     t.integer  "state_id"
     t.string   "name"
     t.integer  "ranking"
+    t.integer  "population"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
