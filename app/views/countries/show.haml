@@ -1,13 +1,14 @@
 %h1 STATES
-- @states.each do |state|
-	.state
-		.sidebar
-			- if state.ranking < 10
-				%span.ranking.under-10
-					= state.ranking
-			- else
-				%span.ranking.over-10
-					= state.ranking
-		.state-info
-			%span.state-name
-				= state.name
+.sortable-list.sortable
+	- @states.each do |state|
+		.state{data: {id: state.id, ranking: state.ranking}}
+			.sidebar
+				- if state.ranking < 10
+					%span.ranking.under-10
+						= state.ranking
+				- else
+					%span.ranking.over-10
+						= state.ranking
+			.state-info
+				%span.state-name
+					= state.name

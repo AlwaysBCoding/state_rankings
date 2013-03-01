@@ -3,7 +3,7 @@ class State < ActiveRecord::Base
   belongs_to :country
   has_many :cities
 
-  validates_uniqueness_of :ranking
+  # validates_uniqueness_of :ranking
   validates_uniqueness_of :name
   validates_uniqueness_of :abbreviation
 

@@ -36,6 +36,7 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'jquery-ui-rails'
 gem 'underscore-rails'
 gem 'html2haml'
 gem 'haml-rails'

@@ -1,3 +1,10 @@
-# Place all the behaviors and hooks related to the matching controller here.
-# All this logic will automatically be available in application.js.
-# You can use CoffeeScript in this file: http://jashkenas.github.com/coffee-script/
+$ ->
+	$(".sortable").sortable
+		items: ".state"
+		update: (event, ui) ->
+			sortables = ui.item.parent().find(".state")
+			sortorder = []
+			_.each sortables, (item) ->
+				sortorder.push $(item).attr("data-id")
+			$.post "/update_state_rankings", { 'rankings[]': sortorder }
+
