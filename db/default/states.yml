@@ -1,0 +1,167 @@
+---
+state01:
+  name: "Alabama"
+  abbreviation: "AL"
+state02:
+  name: "Alaska"
+  abbreviation: "AK"
+state03:
+  name: "Arizona"
+  abbreviation: "AZ"
+state04:
+  name: "Arkansas"
+  abbreviation: "AR"
+state05:
+  name: "California"
+  abbreviation: "CA"
+state06:
+  name: "Colorado"
+  abbreviation: "CO"
+state07:
+  name: "Connecticut"
+  abbreviation: "CT"
+state08:
+  name: "Delaware"
+  abbreviation: "DE"
+state09:
+  name: "Florida"
+  abbreviation: "FL"
+state10:
+  name: "Georgia"
+  abbreviation: "GA"
+state11:
+  name: "Hawaii"
+  abbreviation: "HI"
+state12:
+  name: "Idaho"
+  abbreviation: "ID"
+state13:
+  name: "Illinois"
+  abbreviation: "IL"
+state14:
+  name: "Indiana"
+  abbreviation: "IN"
+state15:
+  name: "Iowa"
+  abbreviation: "IA"
+state16:
+  name: "Kansas"
+  abbreviation: "KS"
+state17:
+  name: "Kentucky"
+  abbreviation: "KY"
+state18:
+  name: "Louisiana"
+  abbreviation: "LA"
+state19:
+  name: "Maine"
+  abbreviation: "ME"
+state20:
+  name: "Maryland"
+  abbreviation: "MD"
+state21:
+  name: "Massachusetts"
+  abbreviation: "MA"
+state22:
+  name: "Michigan"
+  abbreviation: "MI"
+state23:
+  name: "Minnesota"
+  abbreviation: "MN"
+state24:
+  name: "Mississippi"
+  abbreviation: "MS"
+state25:
+  name: "Missouri"
+  abbreviation: "MO"
+state26:
+  name: "Montana"
+  abbreviation: "MT"
+state27:
+  name: "Nebraska"
+  abbreviation: "NE"
+state28:
+  name: "Nevada"
+  abbreviation: "Nevada"
+state29:
+  name: "New Hampshire"
+  abbreviation: "NH"
+state30:
+  name: "New Jersey"
+  abbreviation: "NJ"
+state31:
+  name: "New Mexico"
+  abbreviation: "NM"
+state32:
+  name: "New York"
+  abbreviation: "NY"
+state33:
+  name: "North Carolina"
+  abbreviation: "NC"
+state34:
+  name: "North Dakota"
+  abbreviation: "ND"
+state35:
+  name: "Ohio"
+  abbreviation: "OH"
+state36:
+  name: "Oklahoma"
+  abbreviation: "OK"
+state37:
+  name: "Oregon"
+  abbreviation: "OR"
+state38:
+  name: "Pennsylvania"
+  abbreviation: "PA"
+state39:
+  name: "Rhode Island"
+  abbreviation: "RI"
+state40:
+  name: "South Carolina"
+  abbreviation: "SC"
+state41:
+  name: "South Dakota"
+  abbreviation: "SD"
+state42:
+  name: "Tennessee"
+  abbreviation: "TN"
+state43:
+  name: "Texas"
+  abbreviation: "TX"
+state44:
+  name: "Utah"
+  abbreviation: "UT"
+state45:
+  name: "Vermont"
+  abbreviation: "VT"
+state46:
+  name: "Virginia"
+  abbreviation: "VA"
+state47:
+  name: "Washington"
+  abbreviation: "WA"
+state48:
+  name: "West Virginia"
+  abbreviation: "WV"
+state49:
+  name: "Wisconsin"
+  abbreviation: "WI"
+state50:
+  name: "Wyoming"
+  abbreviation: "WY"
+---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -14,7 +14,7 @@
 ActiveRecord::Schema.define(:version => 20130301050722) do
 
   create_table "cities", :force => true do |t|
-    t.string   "state_id"
+    t.integer  "state_id"
     t.string   "name"
     t.integer  "ranking"
     t.datetime "created_at", :null => false
@@ -28,11 +28,12 @@ ActiveRecord::Schema.define(:version => 20130301050722) do
   end
 
   create_table "states", :force => true do |t|
-    t.string   "country_id"
+    t.integer  "country_id"
     t.string   "name"
+    t.string   "abbreviation"
     t.integer  "ranking"
-    t.datetime "created_at", :null => false
-    t.datetime "updated_at", :null => false
+    t.datetime "created_at",   :null => false
+    t.datetime "updated_at",   :null => false
   end
 
 end
