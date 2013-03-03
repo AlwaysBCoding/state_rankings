@@ -35,6 +35,8 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
+gem 'resque'
+
 gem 'jquery-rails'
 gem 'jquery-ui-rails'
 gem 'underscore-rails'

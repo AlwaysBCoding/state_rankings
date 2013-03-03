@@ -12,3 +12,9 @@
 			.state-info
 				%span.state-name
 					= state.name
+			/ .cities
+			/ - if state.cities.length > 0
+			/ 	%ol.cities
+			/ 		- state.cities.each do |city|
+			/ 			%li.city
+			/ 				= "#{city.name} | Population: #{city.population}"

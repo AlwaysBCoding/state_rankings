@@ -5,4 +5,5 @@ class City < ActiveRecord::Base
   validates_uniqueness_of :ranking, scope: [:state_id]
 
   default_scope order("ranking asc")
+  scope :largest, order("ranking asc")
 end
